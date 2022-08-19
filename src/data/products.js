@@ -1,7 +1,7 @@
 module.exports = [{
         id: 1,
         title: 'Carpaccio fresco',
-        decription: ' Entrada Carpaccio de salmón con cítricos ',
+        description: ' Entrada Carpaccio de salmón con cítricos ',
         price: 65.50,
         image: 'Carpaccio-de-salmon-jpg'
 
@@ -10,7 +10,7 @@ module.exports = [{
     {
         id: 2,
         title: 'Risotto de berenjena ',
-        decription: '  Risotto de berenjena y queso de cabra ',
+        description: '  Risotto de berenjena y queso de cabra ',
         price: 47.00,
         image: 'Risotto-berenjena-queso-cabra.jpg'
 
@@ -18,7 +18,7 @@ module.exports = [{
     {
         id: 3,
         title: ' Mousse de arroz ',
-        decription: '  Mousse de arroz con leche y aroma de azahar ',
+        description: '  Mousse de arroz con leche y aroma de azahar ',
         price: 27.50,
         image: 'Mousse-de-arroz-con-leche.jpg'
 
@@ -26,7 +26,7 @@ module.exports = [{
     {
         id: 4,
         title: 'Espárragos blancos',
-        decription: 'Espárragos blancos con vinagreta de verduras y jamón ibérico',
+        description: 'Espárragos blancos con vinagreta de verduras y jamón ibérico',
         price: 37.50,
         image: 'esparragos.png'
 

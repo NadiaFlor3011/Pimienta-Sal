@@ -1,12 +1,22 @@
 const products = require('../data/products');
 
+
+
+
 module.exports = {
-    Home: (req, res) => {
+    home: (req, res) => {
+
         res.render('index', {
             products
         })
     },
-    Detail: (req, res) => {
-        res.render('detalleMenu')
+    detail: (req, res) => {
+        const { id } = req.params;
+        const product = products.find(product => product.id === +id);
+
+        res.render('detalleMenu', {
+            product
+        })
+
     }
 }
